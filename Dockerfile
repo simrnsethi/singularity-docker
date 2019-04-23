@@ -8,4 +8,4 @@ RUN apt-get update \
 
 COPY train_model.py .
 
-CMD python3 train_model.py
+CMD python3 /train_model.py
